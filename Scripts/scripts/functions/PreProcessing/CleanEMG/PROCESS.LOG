@@ -1,0 +1,148 @@
+::31-Jan-2017 16:27:43: Function eegscore() called with the following arguments:
+::31-Jan-2017 16:27:43:     Arg #1: string 'C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.DAT'
+::31-Jan-2017 16:27:43:     Arg #2: string 'C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.MASK'
+::31-Jan-2017 16:27:43:     Arg #3: string 'NADA'
+::31-Jan-2017 16:27:43: Current directory is 
+::31-Jan-2017 16:27:43: Loading channel data from C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.DAT ...
+::31-Jan-2017 16:27:43: Loading good/bad mask info from C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.MASK ...
+::31-Jan-2017 16:49:42: Function eegscore() called with the following arguments:
+::31-Jan-2017 16:49:42:     Arg #1: string 'C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.DAT'
+::31-Jan-2017 16:49:42:     Arg #2: string 'C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.MASK'
+::31-Jan-2017 16:49:42:     Arg #3: string 'NADA'
+::31-Jan-2017 16:49:42: Current directory is 
+::31-Jan-2017 16:49:42: Loading channel data from C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.DAT ...
+::31-Jan-2017 16:49:42: Loading good/bad mask info from C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.MASK ...
+::31-Jan-2017 16:52:12: Function eegscore() called with the following arguments:
+::31-Jan-2017 16:52:12:     Arg #1: string 'C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.DAT'
+::31-Jan-2017 16:52:12:     Arg #2: string 'C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.MASK'
+::31-Jan-2017 16:52:12:     Arg #3: string 'NADA'
+::31-Jan-2017 16:52:12: Current directory is 
+::31-Jan-2017 16:52:12: Loading channel data from C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.DAT ...
+::31-Jan-2017 16:52:12: Loading good/bad mask info from C:\Users\intlab\Dropbox\Experiments\PCP\Matlab\PreProcessedData\EMG\Sorted\N2\left_zyg\f_1_s1.MASK ...
+::21-Mar-2017 15:27:05: User chose not to save changes.
+::19-Jun-2018 16:41:49: Function eegscore() called with the following arguments:
+::19-Jun-2018 16:41:50:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT'
+::19-Jun-2018 16:41:50:     Arg #2: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK'
+::19-Jun-2018 16:41:50:     Arg #3: string 'NADA'
+::19-Jun-2018 16:41:50: Current directory is 
+::19-Jun-2018 16:41:50: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT ...
+::19-Jun-2018 16:41:50: Loading good/bad mask info from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK ...
+::19-Jun-2018 16:43:50: Function eegscore() called with the following arguments:
+::19-Jun-2018 16:43:50:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT'
+::19-Jun-2018 16:43:50:     Arg #2: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK'
+::19-Jun-2018 16:43:50:     Arg #3: string 'NADA'
+::19-Jun-2018 16:43:50: Current directory is 
+::19-Jun-2018 16:43:50: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT ...
+::19-Jun-2018 16:43:51: Loading good/bad mask info from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK ...
+::19-Jun-2018 16:44:56: Function eegscore() called with the following arguments:
+::19-Jun-2018 16:44:56:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT'
+::19-Jun-2018 16:44:56:     Arg #2: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK'
+::19-Jun-2018 16:44:56:     Arg #3: string 'NADA'
+::19-Jun-2018 16:44:56: Current directory is 
+::19-Jun-2018 16:44:56: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT ...
+::19-Jun-2018 16:44:56: Loading good/bad mask info from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK ...
+::19-Jun-2018 16:47:36: Function eegscore() called with the following arguments:
+::19-Jun-2018 16:47:36:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT'
+::19-Jun-2018 16:47:36:     Arg #2: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK'
+::19-Jun-2018 16:47:36:     Arg #3: string 'NADA'
+::19-Jun-2018 16:47:36: Current directory is 
+::19-Jun-2018 16:47:36: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT ...
+::19-Jun-2018 16:47:37: Loading good/bad mask info from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK ...
+::25-Jun-2018 13:22:31: Function eegscore() called with the following arguments:
+::25-Jun-2018 13:22:32:     Arg #1: string 'Z:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT'
+::25-Jun-2018 13:22:32:     Arg #2: string 'NADA'
+::25-Jun-2018 13:22:32:     Arg #3: string 'NADA'
+::25-Jun-2018 13:22:32: Current directory is 
+::25-Jun-2018 13:22:32: Loading channel data from Z:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT ...
+::25-Jun-2018 13:22:32: Loading good/bad mask info from NADA ...
+::25-Jun-2018 13:24:06: Function eegscore() called with the following arguments:
+::25-Jun-2018 13:24:06:     Arg #1: string 'Z:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT'
+::25-Jun-2018 13:24:06:     Arg #2: string 'NADA'
+::25-Jun-2018 13:24:06:     Arg #3: string 'NADA'
+::25-Jun-2018 13:24:06: Current directory is 
+::25-Jun-2018 13:24:06: Loading channel data from Z:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT ...
+::25-Jun-2018 13:24:06: Loading good/bad mask info from NADA ...
+::25-Jun-2018 13:26:32: Function eegscore() called with the following arguments:
+::25-Jun-2018 13:26:32:     Arg #1: string 'Z:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT'
+::25-Jun-2018 13:26:32:     Arg #2: string 'NADA'
+::25-Jun-2018 13:26:32:     Arg #3: string 'NADA'
+::25-Jun-2018 13:26:32: Current directory is 
+::25-Jun-2018 13:26:32: Loading channel data from Z:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT ...
+::25-Jun-2018 13:26:32: Loading good/bad mask info from NADA ...
+::28-Jun-2018 11:30:46: Function eegscore() called with the following arguments:
+::28-Jun-2018 11:30:47:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT'
+::28-Jun-2018 11:30:47:     Arg #2: string 'NADA'
+::28-Jun-2018 11:30:47:     Arg #3: string 'NADA'
+::28-Jun-2018 11:30:47: Current directory is 
+::28-Jun-2018 11:30:47: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT ...
+::28-Jun-2018 11:30:47: Loading good/bad mask info from NADA ...
+::01-Jul-2018 10:16:59: Function eegscore() called with the following arguments:
+::01-Jul-2018 10:16:59:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT'
+::01-Jul-2018 10:16:59:     Arg #2: string 'NADA'
+::01-Jul-2018 10:16:59:     Arg #3: string 'NADA'
+::01-Jul-2018 10:16:59: Current directory is 
+::01-Jul-2018 10:16:59: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT ...
+::01-Jul-2018 10:16:59: Loading good/bad mask info from NADA ...
+::01-Jul-2018 10:17:42: Function eegscore() called with the following arguments:
+::01-Jul-2018 10:17:42:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT'
+::01-Jul-2018 10:17:42:     Arg #2: string 'NADA'
+::01-Jul-2018 10:17:42:     Arg #3: string 'NADA'
+::01-Jul-2018 10:17:42: Current directory is 
+::01-Jul-2018 10:17:42: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT ...
+::01-Jul-2018 10:17:42: Loading good/bad mask info from NADA ...
+::01-Jul-2018 13:46:42: Function eegscore() called with the following arguments:
+::01-Jul-2018 13:46:42:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT'
+::01-Jul-2018 13:46:42:     Arg #2: string 'NADA'
+::01-Jul-2018 13:46:42:     Arg #3: string 'NADA'
+::01-Jul-2018 13:46:42: Current directory is 
+::01-Jul-2018 13:46:42: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT ...
+::01-Jul-2018 13:46:42: Loading good/bad mask info from NADA ...
+::01-Jul-2018 13:47:26: Function eegscore() called with the following arguments:
+::01-Jul-2018 13:47:26:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT'
+::01-Jul-2018 13:47:26:     Arg #2: string 'NADA'
+::01-Jul-2018 13:47:26:     Arg #3: string 'NADA'
+::01-Jul-2018 13:47:26: Current directory is 
+::01-Jul-2018 13:47:26: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\ASb1_1_1_24_Orb.DAT ...
+::01-Jul-2018 13:47:26: Loading good/bad mask info from NADA ...
+::02-Jul-2018 08:37:03: Function eegscore() called with the following arguments:
+::02-Jul-2018 08:37:03:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT'
+::02-Jul-2018 08:37:03:     Arg #2: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK'
+::02-Jul-2018 08:37:03:     Arg #3: string 'NADA'
+::02-Jul-2018 08:37:03: Current directory is 
+::02-Jul-2018 08:37:03: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT ...
+::02-Jul-2018 08:37:03: Loading good/bad mask info from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK ...
+::02-Jul-2018 08:37:25: Function eegscore() called with the following arguments:
+::02-Jul-2018 08:37:25:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT'
+::02-Jul-2018 08:37:25:     Arg #2: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK'
+::02-Jul-2018 08:37:25:     Arg #3: string 'NADA'
+::02-Jul-2018 08:37:25: Current directory is 
+::02-Jul-2018 08:37:25: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT ...
+::02-Jul-2018 08:37:25: Loading good/bad mask info from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK ...
+::19-Jul-2018 14:38:58: Function eegscore() called with the following arguments:
+::19-Jul-2018 14:38:58:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT'
+::19-Jul-2018 14:38:58:     Arg #2: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK'
+::19-Jul-2018 14:38:58:     Arg #3: string 'NADA'
+::19-Jul-2018 14:38:58: Current directory is 
+::19-Jul-2018 14:38:58: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT ...
+::19-Jul-2018 14:38:58: Loading good/bad mask info from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK ...
+::19-Jul-2018 14:39:36: Function eegscore() called with the following arguments:
+::19-Jul-2018 14:39:36:     Arg #1: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT'
+::19-Jul-2018 14:39:36:     Arg #2: string 'D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK'
+::19-Jul-2018 14:39:36:     Arg #3: string 'NADA'
+::19-Jul-2018 14:39:36: Current directory is 
+::19-Jul-2018 14:39:36: Loading channel data from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.DAT ...
+::19-Jul-2018 14:39:36: Loading good/bad mask info from D:\Dropbox\Experiments\AS_autobiographical_story\Matlab\data\PreProcessedData\EMG\Sorted\AS_1_1_9_Corr.MASK ...
+::19-Jul-2018 15:13:53: Function eegscore() called with the following arguments:
+::19-Jul-2018 15:13:53:     Arg #1: string 'D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\1_1_EMG.DAT'
+::19-Jul-2018 15:13:53:     Arg #2: string 'D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\1_1_EMG.MASK'
+::19-Jul-2018 15:13:53:     Arg #3: string 'NADA'
+::19-Jul-2018 15:13:53: Current directory is 
+::19-Jul-2018 15:13:53: Loading channel data from D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\1_1_EMG.DAT ...
+::19-Jul-2018 15:13:53: Loading good/bad mask info from D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\1_1_EMG.MASK ...
+::19-Jul-2018 15:15:08: Function eegscore() called with the following arguments:
+::19-Jul-2018 15:15:08:     Arg #1: string 'D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\1_1_EMG.DAT'
+::19-Jul-2018 15:15:08:     Arg #2: string 'D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\1_1_EMG.MASK'
+::19-Jul-2018 15:15:08:     Arg #3: string 'NADA'
+::19-Jul-2018 15:15:08: Current directory is 
+::19-Jul-2018 15:15:08: Loading channel data from D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\1_1_EMG.DAT ...
+::19-Jul-2018 15:15:09: Loading good/bad mask info from D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\1_1_EMG.MASK ...

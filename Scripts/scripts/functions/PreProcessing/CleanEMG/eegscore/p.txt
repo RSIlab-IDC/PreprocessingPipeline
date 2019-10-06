@@ -1,0 +1,8 @@
+cbButton.p                cbkeypress.p              eegshelpwin.p
+cbeegsedit.p              editChannelCFG.p          eegsinit.p
+cbeegseditchan.p          eegsBuildDisplayOrder.p   eegsplot.p
+cbeegsfile.p              eegsBuildPlots.p          eegswork.p
+cbeegsmenu.p              eegsChannelCFG.p          mask2list.p
+cbeegsopt.p               eegscore.p                saveEEGSCORECFG.p
+cbeegsview.p              eegsfile.p
+cbfig.p                   eegshelp.p

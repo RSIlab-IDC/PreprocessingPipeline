@@ -1,0 +1,7 @@
+::19-Jul-2018 15:20:49: Function eegscore() called with the following arguments:
+::19-Jul-2018 15:20:49:     Arg #1: string 'D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\12_2_EMG.DAT'
+::19-Jul-2018 15:20:49:     Arg #2: string 'D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\12_2_EMG.MASK'
+::19-Jul-2018 15:20:49:     Arg #3: string 'NADA'
+::19-Jul-2018 15:20:49: Current directory is 
+::19-Jul-2018 15:20:49: Loading channel data from D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\12_2_EMG.DAT ...
+::19-Jul-2018 15:20:49: Loading good/bad mask info from D:\Dropbox\Experiments\EMGmechanics\Experiment1\data\phys\preprocess\before\emg\Corr\12_2_EMG.MASK ...

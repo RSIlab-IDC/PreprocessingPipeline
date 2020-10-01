@@ -72,7 +72,7 @@ end
 
 d = datetime('now');
 DateString = datestr(d);
-envSave = ['05_Cleaning' SEPERATOR DateString '.mat'];
+envSave = ['05_Cleaning' SEPERATOR 'save1of3_' DateString '.mat'];
 envSave = strrep(envSave,':','_');
 cd(MAINFOLDERPATH);
 save(envSave);
@@ -160,7 +160,7 @@ clearvars -except ...
 
 d = datetime('now');
 DateString = datestr(d);
-envSave = ['05_Cleaning' SEPERATOR DateString '.mat'];
+envSave = ['05_Cleaning' SEPERATOR 'save2of3_' DateString '.mat'];
 envSave = strrep(envSave,':','_');
 cd(MAINFOLDERPATH);
 save(envSave);
@@ -489,7 +489,7 @@ clearvars -except ...
 
 d = datetime('now');
 DateString = datestr(d);
-envSave = ['05_Cleaning' SEPERATOR DateString '.mat'];
+envSave = ['05_Cleaning' SEPERATOR 'save3of3_' DateString '.mat'];
 envSave = strrep(envSave,':','_');
 cd(MAINFOLDERPATH);
 save(envSave);

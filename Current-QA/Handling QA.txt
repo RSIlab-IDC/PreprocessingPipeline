@@ -33,10 +33,10 @@ This can also be a problem live, although in live, I would recommend SQL.
 However, I am tracking it:
 Measuring data-size in SOF:
 
-Date		Hour		Size		Step in process
-01-10-20		04:25AM		23.3GB		Before S02
-01-10-20		05:02AM		25.8GB		Fault at S02 - Did not filter out ECG files (step 2.2.3.2)
-
+Folder		Date		Hour		Size		Step in process
+P-T-C		01-10-20		04:25AM		23.3GB		Before S02
+P-T-C		01-10-20		05:02AM		25.8GB		Fault at S02 - Did not filter out ECG files (step 2.2.3.2)
+SOF		01-10-20		01:40PM		53.3GB		QA
 
 Malfunction #2:
 If Cleaning folder is not available:

@@ -14,7 +14,12 @@ NAME = 'Matan';
 % NAME = input('Please enter your name: ','s');
 
 % Write experiment Name
-EXPERIMENT_NAME = 'SOF';
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTE: 01-10-20
+% I want to start everything from the beginning
+EXPERIMENT_NAME = 'SOF-QA';
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % EXPERIMENT_NAME = input('Please enter your experiment: ','s');
 
 % Main folder names, according to levels
@@ -108,11 +113,17 @@ CURRCHANGELOG = struct2table(CURRLOG);
 % Setting paths
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTE: 01-10-20
 % temp settings
-tempPath = ':\playingGround\SOF2';
+tempPath = ':\playingGround\EXP-QA';
 usualPath = ':\Dropbox\Experiments\SelfOtherFocus_Yair';
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTE: 01-10-20
+% This entire section relates to folders that need to be made ready
+% manually and in advance. Also, there is a very crude way of handling path
+% problems. This is not good at all.
 dropboxPath = tempPath;
 pathOptionD = strcat('D',dropboxPath);
 pathOptionZ = strcat('Z',dropboxPath);
@@ -125,7 +136,7 @@ else
     RAW_PATH = strcat(pathOptionZ,'\rawdata_start');
     RATINGS_PATH = strcat(pathOptionZ,'\ratings_start');
 end
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Checking folder situation in experiments path
 cd(EXPERIMENTS_PATH);
@@ -149,7 +160,6 @@ else
     save('CHANGELOG','CHANGELOG');
     load('MEASUREMENTLOG');
 end
-
 
 % Remember you have eid, CHANGELOG, and EXPERIMENTLOG loaded here.
 

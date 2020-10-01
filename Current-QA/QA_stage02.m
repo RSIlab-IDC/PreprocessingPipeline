@@ -312,6 +312,7 @@ for t=1:size(CLEANINGATTEMPTS,1)
         end
         
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % NOTE:
         % Making sure we bypass the check
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
@@ -345,6 +346,7 @@ for t=1:size(CLEANINGATTEMPTS,1)
         close all;
         
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % NOTE:
         % There was a mistake here with the use of "str2double" function.
         % It was not needed.
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -373,7 +375,17 @@ for t=1:size(CLEANINGATTEMPTS,1)
             end
             
             cd([loc3 '\Cleaned']);
-            if givenCase == 2
+            
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % NOTE 01-10-20:
+            % There was a mistake here with checking equality between
+            % 'givenCase' and the integer 2, instead of the integer 1.
+            % 1 signifies EMG.
+            % 2 signifies HR.
+            % Otherwise the channel is EDA, which I still did not prepare
+            % processing for.
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            if givenCase == 1
                 copyfile([TOCOPYAFTERFILELOC '\*'],pwd);
             end
             

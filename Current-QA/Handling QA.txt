@@ -1,0 +1,32 @@
+Steps to handle malfunctions:
+1. See what 05 envs have in them.
+2. When ready for new run: 
+2.1. Clean: 
+2.1.1: Create suitable folder in Channellog_preparation
+2.1.2: Move all envs labeled 05 in the folder from 2.1.1.
+2.2. Repopulate:
+2.2.1: Load "CHANNELLOG33" from the ChannelLog_preparation folder.
+2.2.2: Change main folder to SOF and run "edit_ChannelLog.m". This creates a new CHANNELLOG file.
+2.2.3: Repopulate the suitable files inside the "Cleaning" folder:
+2.2.3.1: Copy all files from PULL_ECG_EMG to PUSH_ECG_EMG
+2.2.3.2: Filter out all ECG files.
+3. Run S02.
+
+Issues:
+P1:
+I don't hope mkdir in S02, in the last segment, just writes on existing folders, deleting them.
+Otherwise, two options: 
+(1) Update CHANNELLOG with proper cleaningAttempts values and re-run.
+(2) Start everything again, since data is allegedly copied and recopied [Although since I am not writing new cleaningAttempts values, it shouldn't]..
+We should probably check the whole process from the start...
+
+P2:
+Data folder in SOF may be very big. I don't know. 
+This can also be a problem live, although in live, I would recommend SQL.
+However, I am tracking it:
+
+Measuring data-size in SOF:
+
+Date		Hour		Size		Step in process
+01-10-20		04:25AM		23.3GB		Before S02
+01-10-20		05:02AM		25.8GB		Fault at S02 - Did not filter out ECG files (step 2.2.3.2)

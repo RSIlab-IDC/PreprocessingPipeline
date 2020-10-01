@@ -7,7 +7,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% First, load the necessary files
-load('05_makingTable.mat');
+load('041_makingTable.mat');
 load('CHANNELLOG.mat');
 
 %% Check cleaning attempts with EDA folder
@@ -241,10 +241,19 @@ for t=1:size(CLEANINGATTEMPTS,1)
             prompt = 'Grade Cleaning';
 
         elseif givenCase == 2
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % NOTE: 01-10-20
+            % You should not get here. We only care about EMG.
+            % Make sure you filtered cases in PUSH
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             CHANNELNAME = 'ECG';
             %copyfile([TOCOPYBEFOREFILELOC '\DATAFILE.xlsx'],pwd);
             %movefile('DATAFILE.xlsx','DATAFILEBEFORE.xlsx');
             
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % FIXME: 01-10-20
+            % 'cd' after 'cd'? Where to? Why? What is the idea here?
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             cd(TOCOPYAFTERFILELOC);
             cd('output data');
             
@@ -334,7 +343,9 @@ for t=1:size(CLEANINGATTEMPTS,1)
 %         end
 
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        % Making sure we bypass the check
+        % NOTE: 01-10-20
+        % This is crucial for QA. Not suitable for live.
+        % It makes sure we bypass the check
         compareScore = {3};
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
@@ -346,7 +357,7 @@ for t=1:size(CLEANINGATTEMPTS,1)
         close all;
         
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        % NOTE:
+        % NOTE: 01-08-2020
         % There was a mistake here with the use of "str2double" function.
         % It was not needed.
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -423,6 +434,11 @@ for t=1:size(CLEANINGATTEMPTS,1)
                 delete('DATAFILEAFTER.xlsx');
             end
             
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % NOTE 01-10-20:
+        % I never get here. It is important becuase only in live, do I want
+        % to delete all the files in the PULL folder.
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
         else
             CHANNELLOG.flagCheckClean{transitionInd} = 999;
             

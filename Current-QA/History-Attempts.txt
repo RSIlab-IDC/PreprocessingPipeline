@@ -1,0 +1,8 @@
+Attempt 01-10-20 - 05:15AM:
+Problem: Cleaning folder missed every EMG file!
+Fix: 
+I need to go over the entire data again and extract the folders to be cleaned.
+Plan:
+1. Going to environment 03_BeforeCleaning from February 2020.
+2. Edit all paths in the suitable CHANNELLOG so it can read into the paths.
+3. Hope the last segment in S01 runs, so I get a proper Cleaning folder.

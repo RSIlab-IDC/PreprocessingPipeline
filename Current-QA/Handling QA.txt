@@ -1,4 +1,11 @@
 Steps to handle malfunctions:
+
+Template:
+Malfunction # - Actions - Issues
+
+Malfunction #1:
+If Cleaning folder is available:
+Actions:
 1. See what 05 envs have in them.
 2. When ready for new run: 
 2.1. Clean: 
@@ -24,9 +31,17 @@ P2:
 Data folder in SOF may be very big. I don't know. 
 This can also be a problem live, although in live, I would recommend SQL.
 However, I am tracking it:
-
 Measuring data-size in SOF:
 
 Date		Hour		Size		Step in process
 01-10-20		04:25AM		23.3GB		Before S02
 01-10-20		05:02AM		25.8GB		Fault at S02 - Did not filter out ECG files (step 2.2.3.2)
+
+
+Malfunction #2:
+If Cleaning folder is not available:
+Actions:
+1. I need to go back to S01, last code segment, and try and make it run using the latest environment.
+2. I need to make sure all paths are correct. This should be okay if we use the scripts in the "Rerunning_Scripts" folder.
+
+Issues:
